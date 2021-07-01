@@ -1,0 +1,68 @@
+# jemdoc: menu{MENU}{publication.html}, nofooter  
+==Full list of publications
+
+== Conference publications 
+. *Haoyu Wang*, H. Shen, J. Gao, K. Zheng, X. Li\n 
+Multi-Agent Reinforcement Learning based Distributed Renewable Energy Matching for Datacenters\n 
+ICPP'2021: IEEE International Conference on Parallel Processing
+. *Haoyu Wang*, H. Shen, Z. Li, S. Tian\n 
+GeoCol: A Geo-distributed Cloud Storage System with Low Cost and Latency using Reinforcement Learning\n ICDCS'2021: IEEE International Conference on Distributed Computing Systems
+. R. Kaulgud Ramesh, *Haoyu Wang*, H. Shen, Z. Fan\n 
+Machine Learning for Load Balancing in Cloud Datacenters\n 
+CCGrid'2021: IEEE/ACM international Symposium on Cluster, Cloud and Internet Computing
+. *Haoyu Wang*, Z. Liu, Z. H. Shen\n 
+Job Scheduling for Large-Scale Machine Learning Clusters\n 
+CoNEXT'2020: International Conference on emerging Networking EXperiments and Technologies
+. *Haoyu Wang*, H. Shen, C. Reiss, A. Jain, Y. Zhang\n 
+Improved Intermediate Data Management for MapReduce Frameworks\n 
+IPDPS'2020: IEEE International Parallel and Distributed Processing Symposium
+. *Haoyu Wang*, H. Shen, Q. Liu, K. Zheng, J. Xu\n 
+A Reinforcement Learning Based System for Minimizing Cloud Storage Service Cost\n
+ICPP'2020: IEEE International Conference on Parallel Processing
+. J. Gao, *Haoyu Wang*, H. Shen\n 
+Smartly Handling Renewable Energy Instability in Supporting A Cloud Datacenter\n
+IPDPS'2020: IEEE International Parallel and Distributed Processing Symposium
+. J. Gao, *Haoyu Wang*, H. Shen\n 
+Task Failure Prediction in Cloud Data Centers Using Deep Learning\n
+BigData'2019: IEEE international conference on Big Data
+. G. Liu, H. Shen, *Haoyu Wang*\n 
+Task Failure Prediction in Cloud Data Centers Using Deep Learning\n
+ICPP'2019: IEEE International Conference on Parallel Processing
+. *Haoyu Wang*, H. Shen and Z. Li\n 
+Approaches for Resilience Against Cascading Failures in Cloud Datacenters\n 
+ICDCS'2018: IEEE International Conference on Distributed Computing Systems
+. *Haoyu Wang*, H. Shen\n 
+Proactive Incast Congestion Control in a Datacenter Serving Web Applications\n 
+INFOCOM'2018: IEEE International Conference on Computer Communications
+. *Haoyu Wang*, H. Shen, G. Liu\n 
+Swarm-based Incast Congestion Control in datacenter Serving Web Applications\n 
+SPAA'2017: ACM Symposium on Parallelism in Algorithms and Architectures, co-located with PODC
+. *Haoyu Wang*, J. Gong, Y. Zhuang, H. Shen, J. Lach\n 
+HealthEdge: Task Scheduling for Edge Computing with Health Emergency and Human Behavior Consideration in Smart Homes\n
+BigData'2017: IEEE international conference on Big Data
+. G. Liu, *Haoyu Wang*, H. Shen\n 
+Computing load aware and long-view load balancing for cluster storage systems\n
+BigData'2015: IEEE international conference on Big Data
+
+== Journal publications
+. G. Liu, H. Shen, *Haoyu Wang*, Y. Lei\n 
+Towards Deadline Guaranteed Cloud Storage Services\n
+TSC'2018, IEEE Transacions on Services Computing
+. H. Shen, H. Chandler, *Haoyu Wang*\n 
+Toward Efficient Short-Video Sharing in the YouTube Social Network\n
+TOIT'2017, ACM Transactions on Internet Technology
+. G. Liu, H. Shen, *Haoyu Wang*\n 
+An Economical and SLO-Guaranteed Cloud Storage Service across Multiple Cloud Service Providers\n
+TPDS'2017, IEEE Transactions on Parallel and Distributed Systems
+. G. Liu, H. Shen, *Haoyu Wang*\n 
+SocialQ&A: An online social network based question and answer system\n
+BigData'2017, IEEE Transactions on Big Data
+. G. Liu, H. Shen, *Haoyu Wang*\n 
+Towards Long-View Computing Load Balancing in Cluster Storage Systems\n
+TPDS'2016, IEEE Transactions on Parallel and Distributed Systems
+. G. Liu, H. Shen, *Haoyu Wang*\n 
+Deadline guaranteed service for multi-tenant cloud storage\n
+TPDS'2016, IEEE Transactions on Parallel and Distributed Systems
+
+
+

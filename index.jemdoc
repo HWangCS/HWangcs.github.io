@@ -1,0 +1,30 @@
+# jemdoc: menu{MENU}{index.html}, nofooter  
+=Haoyu Wang
+
+~~~
+{}{img_left}{photo.jpg}{alt text}{160}{160}{}
+PhD student\n [https://engineering.virginia.edu/departments/computer-science Department of Computer Science], \n[https://www.virginia.edu University of Virginia (UVA)]\n
+Rice Hall 220 \n
+Charlottesville, VA, USA \n 
+Email: /haoyuw/ \[@\] virginia \[DOT\] edu
+~~~
+
+== About me
+I am a Ph.D. student in the [https://engineering.virginia.edu/departments/computer-science Department of Computer Science] at [https://www.virginia.edu University of Virginia], where I am advised by [http://www.cs.virginia.edu/~hs6ms/ Prof. Helen Shen]. My research interests are in Datacenter Network, Distributed System and Cloud Computing.
+
+I received my B.S. at [https://en.wikipedia.org/wiki/University_of_Science_and_Technology_of_China University of Science & Technology of China (USTC)] and M.S. at [http://www.columbia.edu/ Columbia University]. I am very fortunate to work with a number of wonderful people. 
+
+=== Research
+My research interests include Cloud Computing, Datacenter Network, Distributed System, Machine Learning, and Renewable Energy
+
+
+== Selective Publications 
+. *Haoyu Wang*, H. Shen, Z. Li, S. Tian\n GeoCol: A Geo-distributed Cloud Storage System with Low Cost and Latency using Reinforcement Learning\n ICDCS'2021: IEEE International Conference on Distributed Computing Systems
+. *Haoyu Wang*, Z. Liu, Z. H. Shen\n Job Scheduling for Large-Scale Machine Learning Clusters\n CoNEXT'2020: International Conference on emerging Networking EXperiments and Technologies
+. *Haoyu Wang*, H. Shen, C. Reiss, A. Jain, Y. Zhang\n Improved Intermediate Data Management for MapReduce Frameworks\n IPDPS'2020: IEEE International Parallel and Distributed Processing Symposium
+. *Haoyu Wang*, H. Shen and Z. Li\n Approaches for Resilience Against Cascading Failures in Cloud Datacenters\n ICDCS'2018: IEEE International Conference on Distributed Computing Systems
+. *Haoyu Wang*, H. Shen\n Proactive Incast Congestion Control in a Datacenter Serving Web Applications\n INFOCOM'2018: IEEE International Conference on Computer Communications
+. *Haoyu Wang*, H. Shen, G. Liu\n Swarm-based Incast Congestion Control in datacenter Serving Web Applications\n SPAA'2017: ACM Symposium on Parallelism in Algorithms and Architectures, co-located with PODC
+
+[publication.html Full list of publications].
+
