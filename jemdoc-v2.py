@@ -168,7 +168,7 @@ def standardconf():
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   
   [defaultcss]
-  <link rel="stylesheet" href="jemdoc.css" type="text/css" />
+  <link rel="stylesheet" href="jemdoc-v2.css" type="text/css" />
   
   [windowtitle]
   # used in header for window title.
@@ -207,13 +207,12 @@ def standardconf():
   } catch(err) {}</script>
   
   [menustart]
-  <table summary="Table for page layout." id="tlayout">
-  <tr valign="top">
-  <td id="layout-menu">
+  <div id="layout-content-box">
+  <div id="layout-menu">
   
   [menuend]
-  </td>
-  <td id="layout-content">
+  </div>
+  <div id="layout-content">
   
   [menucategory]
   <div class="menu-category">|</div>
@@ -231,14 +230,15 @@ def standardconf():
   <div class="menu-item"><a href="|1" class="current">|2</a></div>
   
   [nomenu]
+  <div id="layout-content-box">
   <div id="layout-content">
   
   [menulastbit]
-  </td>
-  </tr>
-  </table>
+  </div>
+  </div>
   
   [nomenulastbit]
+  </div>
   </div>
   
   [bodyend]
@@ -1426,7 +1426,7 @@ def procfile(f):
         nl(f)
         continue
       elif imgblock:
-        out(f.outf, '</td></tr></table>\n')
+        out(f.outf, '</div></div>\n')
         imgblock = False
         nl(f)
         continue
@@ -1473,18 +1473,20 @@ def procfile(f):
         elif len(g) == 2:
           codeblock(f, g)
 
-        elif len(g) >= 4 and g[1] == 'img_left':
+        elif len(g) >= 4 and g[1] in ('img_left', 'img_right'):
           # handles
-          # {}{img_left}{source}{alttext}{width}{height}{linktarget}.
+          # {}{img_left|img_right}{source}{alttext}{width}{height}{linktarget}.
           g += ['']*(7 - len(g))
           
-          if g[4].isdigit():
-            g[4] += 'px'
+          # Determine class based on img_left or img_right
+          container_class = "bio-container"
+          if g[1] == 'img_right':
+             container_class += " img-right"
 
-          if g[5].isdigit():
-            g[5] += 'px'
-
-          out(f.outf, '<table class="imgtable"><tr><td>\n')
+          out(f.outf, '<div class="%s">\n' % container_class)
+          
+          # Image part
+          out(f.outf, '<div class="bio-photo">\n')
           if g[6]:
             out(f.outf, '<a href="%s">' % g[6])
           out(f.outf, '<img src="%s"' % g[2])
@@ -1496,7 +1498,10 @@ def procfile(f):
           out(f.outf, ' />')
           if g[6]:
             out(f.outf, '</a>')
-          out(f.outf, '&nbsp;</td>\n<td align="left">')
+          out(f.outf, '\n</div>\n')
+
+          # Text part wrapper
+          out(f.outf, '<div class="bio-text">')
           imgblock = True
 
         else:

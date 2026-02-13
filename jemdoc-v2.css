@@ -1,0 +1,292 @@
+/* Google Fonts - Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+}
+
+/* Links */
+a {
+    color: #0066cc;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #004499;
+    text-decoration: underline;
+}
+
+/* Layout Container */
+#layout-content-box {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 0 20px;
+    gap: 40px;
+}
+
+/* Sidebar Menu */
+#layout-menu {
+    width: 200px;
+    flex-shrink: 0;
+    position: sticky;
+    top: 50px;
+    align-self: start;
+    font-size: 0.95rem;
+}
+
+/* Main Content */
+#layout-content {
+    flex: 1;
+    min-width: 0;
+    /* Prevents flex item from overflowing */
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.03);
+    border: 1px solid #f0f0f0;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #111;
+    font-weight: 600;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 2.2rem;
+    margin-top: 0;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #eaeaea;
+    letter-spacing: -0.5px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 0.3em;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+/* Menu Styling */
+.menu-category {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #888;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.menu-item {
+    padding: 6px 10px;
+    margin-bottom: 2px;
+    border-radius: 6px;
+    transition: background-color 0.2s;
+}
+
+.menu-item a {
+    color: #444;
+    display: block;
+}
+
+.menu-item:hover {
+    background-color: #f5f5f7;
+}
+
+.menu-item a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.menu-item a.current {
+    font-weight: 600;
+    color: #0066cc;
+    background-color: #e6f0fa;
+    margin: -6px -10px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    display: block;
+}
+
+/* Info Block (Bio) Styling */
+.infoblock {
+    display: block;
+    margin-bottom: 2em;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #0066cc;
+}
+
+.blockcontent {
+    /* Reset jemdoc default */
+    padding: 0;
+    background: transparent;
+    border: none;
+}
+
+/* Image Handling */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+/* Lists */
+ul,
+ol {
+    padding-left: 20px;
+    margin-bottom: 1.5em;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+/* Publication List Styling Enhancements */
+/* Make publication venue names recognizable if formatted with Bold or specific patterns */
+li p {
+    margin-bottom: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #layout-content-box {
+        flex-direction: column;
+        margin: 20px auto;
+        gap: 20px;
+    }
+
+    #layout-menu {
+        width: 100%;
+        position: relative;
+        top: 0;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: baseline;
+    }
+
+    .menu-category {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .menu-item {
+        display: inline-block;
+        padding: 4px 8px;
+        background: #f5f5f5;
+        border-radius: 4px;
+        margin-right: 5px;
+    }
+
+    .menu-item a.current {
+        margin: 0;
+        padding: 4px 8px;
+    }
+
+    #layout-content {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+}
+
+/* Custom Utilities for aesthetic touches */
+.papertitle {
+    font-weight: 600;
+    color: #222;
+}
+
+.confname {
+    display: inline-block;
+    padding: 2px 6px;
+    font-size: 0.85em;
+    font-weight: 600;
+    border-radius: 4px;
+    background-color: #eef2f5;
+    color: #555;
+    margin-right: 6px;
+}
+
+/* Footer */
+#footer {
+    border-top: 1px solid #eee;
+    margin-top: 40px;
+    padding-top: 20px;
+    font-size: 0.85em;
+    color: #999;
+    text-align: center;
+}
+
+/* Profile Picture Styling */
+img[src*="photo-v2.png"] {
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Bio Container Styling */
+.bio-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 2em;
+}
+
+.bio-text {
+    flex: 1;
+}
+
+.bio-photo {
+    flex-shrink: 0;
+}
+
+/* Reverse order for img-right */
+.bio-container.img-right {
+    flex-direction: row-reverse;
+}
+
+/* Publication List Styling */
+li {
+    margin-bottom: 12px;
+}
+
+/* Highlighting Conference Names (heuristic based on bold tags) */
+li b {
+    color: #0056b3;
+    font-weight: 600;
+}
+
+/* Table Row Hover Effect */
+tr:hover td {
+    background-color: #fcfcfc;
+}

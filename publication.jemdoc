@@ -2,6 +2,21 @@
 ==Full list of publications
 
 == Conference publications 
+. H Bai, *Haoyu Wang*, N Gong, X Wang, W Ying, H Chen, Y Fu\n
+Supply Chain Optimization via Generative Simulation and Iterative Decision Policies
+*WSC'2025*: Winter Simulation Conference (WSC)
+. Y Ye, LA Tang, *Haoyu Wang*, R Yu, W Yu, E He, H Chen, H Xiong\n
+Pail: Performance based adversarial imitation learning engine for carbon neutral optimization
+*KDD'2024*: Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and …
+. C Deng, Z Chen, X Zhao, *Haoyu Wang*, J Wang, H Chen, J Gao\n
+RIO-CPD: A Riemannian Geometric Method for Correlation-aware Online Change Point Detection
+*arXiv'2024*: arXiv preprint arXiv:2407.09698
+. Y Li, Y Liu, *Haoyu Wang*, Z Chen, W Cheng, Y Chen, W Yu, H Chen, C Liu\n
+Glad: Content-aware dynamic graphs for log anomaly detection
+*ICKG'2023*: IEEE International Conference on Knowledge Graph (ICKG)
+. *Haoyu Wang*, K Zheng, C Reiss, H Shen\n
+NCC: Neighbor-aware congestion control based on reinforcement learning for datacenter networks
+*ICPP'2022*: Proceedings of the 51st International Conference on Parallel Processing
 . *Haoyu Wang*, H. Shen, J. Gao, K. Zheng, X. Li\n 
 Multi-Agent Reinforcement Learning based Distributed Renewable Energy Matching for Datacenters\n 
 ICPP'2021: IEEE International Conference on Parallel Processing
@@ -10,6 +25,9 @@ GeoCol: A Geo-distributed Cloud Storage System with Low Cost and Latency using R
 . R. Kaulgud Ramesh, *Haoyu Wang*, H. Shen, Z. Fan\n 
 Machine Learning for Load Balancing in Cloud Datacenters\n 
 CCGrid'2021: IEEE/ACM international Symposium on Cluster, Cloud and Internet Computing
+. *Haoyu Wang*, H Shen, J Gao, K Zheng, X Li\n
+Multi-agent reinforcement learning based distributed renewable energy matching for datacenters
+*ICPP'2021*: Proceedings of the 50th International Conference on Parallel Processing
 . *Haoyu Wang*, Z. Liu, Z. H. Shen\n 
 Job Scheduling for Large-Scale Machine Learning Clusters\n 
 CoNEXT'2020: International Conference on emerging Networking EXperiments and Technologies
@@ -40,14 +58,16 @@ INFOCOM'2018: IEEE International Conference on Computer Communications
 . *Haoyu Wang*, H. Shen, G. Liu\n 
 Swarm-based Incast Congestion Control in datacenter Serving Web Applications\n 
 SPAA'2017: ACM Symposium on Parallelism in Algorithms and Architectures, co-located with PODC
-. *Haoyu Wang*, J. Gong, Y. Zhuang, H. Shen, J. Lach\n 
-HealthEdge: Task Scheduling for Edge Computing with Health Emergency and Human Behavior Consideration in Smart Homes\n
-BigData'2017: IEEE international conference on Big Data
-. G. Liu, *Haoyu Wang*, H. Shen\n 
-Computing load aware and long-view load balancing for cluster storage systems\n
-BigData'2015: IEEE international conference on Big Data
-
 == Journal publications
+. C Ling, X Zhao, J Lu, C Deng, C Zheng, J Wang, T Chowdhury, Y Li, ...\n
+Domain specialization as the key to make large language models disruptive: A comprehensive survey
+*CSUR'2025*: ACM Computing Surveys 58 (3)
+. H Shen, *Haoyu Wang*, J Gao, R Buyya\n
+An instability-resilient renewable energy allocation system for a cloud datacenter
+*TPDS'2023*: IEEE Transactions on Parallel and Distributed Systems 34 (3)
+. *Haoyu Wang*, Z Liu, H Shen\n
+Machine learning feature based job scheduling for distributed machine learning clusters
+*ToN'2022*: IEEE/ACM Transactions on Networking 31 (1)
 . G. Liu, H. Shen, *Haoyu Wang*, Y. Lei\n 
 Towards Deadline Guaranteed Cloud Storage Services\n
 TSC'2018, IEEE Transacions on Services Computing
@@ -66,6 +86,3 @@ TPDS'2016, IEEE Transactions on Parallel and Distributed Systems
 . G. Liu, H. Shen, *Haoyu Wang*\n 
 Deadline guaranteed service for multi-tenant cloud storage\n
 TPDS'2016, IEEE Transactions on Parallel and Distributed Systems
-
-
-

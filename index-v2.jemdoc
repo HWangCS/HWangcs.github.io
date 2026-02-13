@@ -1,0 +1,49 @@
+# jemdoc: menu{MENU}{index.html}, nofooter  
+=Haoyu Wang
+
+~~~
+{}{img_right}{photo-v2.png}{Haoyu Wang}{160}{160}
+Researcher \n [https://www.nec-labs.com/research/data-science-system-security/ Data Science and System Security], \n[https://www.nec-labs.com NEC Labs America] \n
+Princeton, NJ, USA \n 
+Email: /haoyunec/ \[@\] gmail \[DOT\] com \n
+[https://scholar.google.com/citations?user=xBaIhq4AAAAJ&hl=en Google Scholar]  |  [https://www.linkedin.com/in/haoyu-wang-phd-4638a490/ LinkedIn]
+~~~
+
+== About me
+I am a researcher in the [https://www.nec-labs.com/research/data-science-system-security/ Data Science and System Security (DSSS)] department at NEC Labs America in Princeton, NJ. 
+My research focuses on building scalable and resilient systems for the next generation of AI.
+
+Previously, I was a Postdoc Associate in the [https://cpsc.yale.edu Department of Computer Science] at [https://www.yale.edu Yale University], working with [https://www.cs.yale.edu/homes/soule/ Prof. Robert Soule] and [https://codex.cs.yale.edu/avi/ Prof. Avi Silberschatz].
+
+I received my Ph.D. from the [https://www.virginia.edu University of Virginia], advised by [http://www.cs.virginia.edu/~hs6ms/ Prof. Helen Shen]. 
+I obtained my M.S. from [http://www.columbia.edu/ Columbia University] and B.S. from [https://en.wikipedia.org/wiki/University_of_Science_and_Technology_of_China USTC].
+
+=== Research Interests
+- *LLM Agents & Multi-Agent Systems*: Designing collaborative AI architectures.
+- *Distributed Systems*: Optimizing large-scale data processing and model serving.
+- *Reinforcement Learning*: Applied to system optimization and decision making.
+- *Datacenter Networks*: Enhancing cloud infrastructure performance.
+
+# == Recent News
+# - *\[Feb 2026\]* Our survey on Domain Specialization for LLMs was accepted to *CSUR 2025*!
+# - *\[Jan 2026\]* Paper on Supply Chain Optimization accepted to *WSC 2025*.
+
+== Recent Publications ([https://scholar.google.com/citations?user=xBaIhq4AAAAJ&hl=en Google Scholar])
+. C Ling, X Zhao, J Lu, C Deng, C Zheng, J Wang, T Chowdhury, Y Li, *Haoyu Wang*...\n 
+Domain specialization as the key to make large language models disruptive: A comprehensive survey\n 
+*CSUR'2025*: ACM Computing Surveys 58 (3)
+. H Bai, *Haoyu Wang*, N Gong, X Wang, W Ying, H Chen, Y Fu\n 
+Supply Chain Optimization via Generative Simulation and Iterative Decision Policies\n 
+*WSC'2025*: Winter Simulation Conference (WSC)
+. Y Ye, LA Tang, *Haoyu Wang*, R Yu, W Yu, E He, H Chen, H Xiong\n 
+Pail: Performance based adversarial imitation learning engine for carbon neutral optimization\n 
+*KDD'2024*: Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and …
+. C Deng, Z Chen, X Zhao, *Haoyu Wang*, J Wang, H Chen, J Gao\n 
+RIO-CPD: A Riemannian Geometric Method for Correlation-aware Online Change Point Detection\n 
+*arXiv'2024*: arXiv preprint arXiv:2407.09698
+. H Shen, *Haoyu Wang*, J Gao, R Buyya\n 
+An instability-resilient renewable energy allocation system for a cloud datacenter\n 
+*TPDS'2023*: IEEE Transactions on Parallel and Distributed Systems 34 (3)
+
+[publication.html Full list of publications].
+

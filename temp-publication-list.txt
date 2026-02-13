@@ -1,0 +1,36 @@
+Supply Chain Optimization via Generative Simulation and Iterative Decision Policies
+H Bai, H Wang, N Gong, X Wang, W Ying, H Chen, Y Fu
+2025 Winter Simulation Conference (WSC), 558-569
+2025
+Domain specialization as the key to make large language models disruptive: A comprehensive survey
+C Ling, X Zhao, J Lu, C Deng, C Zheng, J Wang, T Chowdhury, Y Li, ...
+ACM Computing Surveys 58 (3), 1-39
+285	2025
+Pail: Performance based adversarial imitation learning engine for carbon neutral optimization
+Y Ye, LA Tang, H Wang, R Yu, W Yu, E He, H Chen, H Xiong
+Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and …
+3	2024
+RIO-CPD: A Riemannian Geometric Method for Correlation-aware Online Change Point Detection
+C Deng, Z Chen, X Zhao, H Wang, J Wang, H Chen, J Gao
+arXiv preprint arXiv:2407.09698
+2	2024
+Glad: Content-aware dynamic graphs for log anomaly detection
+Y Li, Y Liu, H Wang, Z Chen, W Cheng, Y Chen, W Yu, H Chen, C Liu
+2023 IEEE International Conference on Knowledge Graph (ICKG), 9-18
+19	2023
+An instability-resilient renewable energy allocation system for a cloud datacenter
+H Shen, H Wang, J Gao, R Buyya
+IEEE Transactions on Parallel and Distributed Systems 34 (3), 1020-1034
+13	2023
+NCC: Neighbor-aware congestion control based on reinforcement learning for datacenter networks
+H Wang, K Zheng, C Reiss, H Shen
+Proceedings of the 51st International Conference on Parallel Processing, 1-10
+3	2022
+Machine learning feature based job scheduling for distributed machine learning clusters
+H Wang, Z Liu, H Shen
+IEEE/ACM Transactions on Networking 31 (1), 58-73
+23	2022
+Multi-agent reinforcement learning based distributed renewable energy matching for datacenters
+H Wang, H Shen, J Gao, K Zheng, X Li
+Proceedings of the 50th International Conference on Parallel Processing, 1-10
+24	2021
